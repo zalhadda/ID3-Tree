@@ -1,0 +1,10 @@
+Implements an ID3 binary decision tree for the Titanic Machine Learning Disaster dataset.
+
+The program can be run with:
+  python3 ID3.py <path_to_train> <path_to_test> <decision_tree_type> <decision_tree_arguments>
+  
+There are four types of decision trees:
+  (1) Vanilla ('vanilla'): [training_set_percentage]
+  (2) Maximum Depth ('depth'): [training_set_percentage] [validation_set_percentage] [maximum_depth]
+  (3) Minimum Split ('min_split'): [training_set_percentage] [validation_set_percentage] [minimum_splits]
+  (4) Pruned ('prune'): [training_set_percentage] [validation_set_percentage]
